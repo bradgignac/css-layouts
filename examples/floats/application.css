@@ -1,0 +1,42 @@
+/* Columns */
+#wrapper {
+  border: 1px dotted #08c;
+}
+
+#one,
+#two,
+#three {
+  background-color: #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  float: left;
+  margin: 10px;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#one {
+  width: 180px;
+}
+
+#two {
+  width: 518px;
+}
+
+#three {
+  width: 180px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.pull-right {
+  float: right;
+  margin: 0 0 20px 20px;
+}

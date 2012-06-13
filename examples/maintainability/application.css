@@ -1,0 +1,134 @@
+body {
+  background-color: #eee;
+}
+
+form.form {
+  margin: 0;
+}
+
+/* Main Page Layout */
+#content {
+  margin: 0 auto 40px;
+  width: 940px;
+}
+
+#sidebar {
+  float: left;
+  margin-right: 40px;
+  width: 200px;
+}
+
+#main {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: 240px;
+  padding: 20px;
+}
+
+#app-header {
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+  height: 36px;
+  margin: -20px -20px 20px -20px;
+  padding: 20px;
+}
+
+#app-header h1 {
+  float: left;
+  /*margin-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 472px;*/
+}
+
+#app-actions {
+  float: right;
+  margin-top: 4px;
+}
+
+/* Facets */
+#facets {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding: 10px 0 0;
+}
+
+#facets div.group {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#facets ul {
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+}
+
+#facets input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Dropdowns */
+div.dropdown {
+  display: inline-block;
+  margin-right: 10px;
+  padding-bottom: 3px;
+  position: relative;
+}
+
+div.dropdown .menu {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: none;
+  list-style: none;
+  margin: 0;
+  min-width: 120px;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+}
+
+div.dropdown .popover {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: none;
+  min-width: 120px;
+  padding: 10px;
+  position: absolute;
+  top: 38px;
+}
+
+div.dropdown .popover:after,
+div.dropdown .popover:before {
+  bottom: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+div.dropdown .popover:after {
+  border-bottom-color: #fff;
+  border-width: 10px;
+  left: 30px;
+  margin-left: -10px;
+}
+
+div.dropdown .popover:before {
+  border-bottom-color: #ddd;
+  border-width: 11px;
+  left: 30px;
+  margin-left: -11px;
+}
+
+
+div.dropdown:hover .menu,
+div.dropdown:hover .popover {
+  display: block;
+}

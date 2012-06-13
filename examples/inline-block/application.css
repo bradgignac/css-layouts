@@ -1,0 +1,27 @@
+/* Columns */
+#wrapper {
+  border: 1px dotted #08c;
+
+  /*letter-spacing: -4px;*/
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight {
+  background-color: #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  padding: 100px 20px;
+  text-align: center;
+  width: 211px;
+
+  /*letter-spacing: normal;*/
+  /*width: 214px;*/
+}

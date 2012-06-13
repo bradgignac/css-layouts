@@ -1,0 +1,41 @@
+#modal {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: -150px 0 0 -250px;
+  padding: 135px 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+}
+
+div.buttons {
+  margin-bottom: 18px;
+}
+
+div.dropdown {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding-bottom: 3px;
+  position: relative;
+}
+
+div.dropdown ul {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: none;
+  list-style: none;
+  margin: 0;
+  min-width: 120px;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+}
+
+div.dropdown:hover ul {
+  display: block;
+}
