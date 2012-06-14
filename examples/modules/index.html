@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Building Maintainable CSS Layouts</title>
+
+  <link rel="stylesheet" type="text/css" href="../shared/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../shared/shortcuts.css">
+  <link rel="stylesheet" type="text/css" href="application.css">
+</head>
+<body>
+  <div id="shortcuts" class="application">
+    <dl class="container">
+      <dt>Floats:</dt>
+      <dd>
+        <ol>
+          <li><a href="../floats/wrapping.html">Wrapping</a></li>
+          <li><a href="../floats/columns.html">Columns</a></li>
+        </ol>
+      </dd>
+      <br>
+      <dt>Inline Block:</dt>
+      <dd>
+        <ol>
+          <li><a href="../inline-block/columns.html">Columns</a></li>
+        </ol>
+      </dd>
+      <br>
+      <dt>Absolute Positioning:</dt>
+      <dd>
+        <ol>
+          <li><a href="../absolute-positioning/centering.html">Centering</a></li>
+          <li><a href="../absolute-positioning/dropdowns.html">Dropdowns</a></li>
+        </ol>
+      </dd>
+      <br>
+      <dt>Maintability:</dt>
+      <dd>
+        <ol>
+          <li><a href="../original/index.html">Original</a></li>
+          <li><a href="../grid/index.html">Grid</a></li>
+          <li><a href="../modules/index.html">Modules</a></li>
+        </ol>
+      </dd>
+    </dl>
+  </div>
+  <div id="content" class="container">
+    <div class="grid">
+      <section id="sidebar" class="cell span-1">
+        <div id="facets" class="facets">
+          <div class="facet-header">Group</div>
+          <ul class="facet-group">
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+          </ul>
+          <div class="facet-header">Group</div>
+          <ul class="facet-group">
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+          </ul>
+          <div class="facet-header">Group</div>
+          <ul class="facet-group">
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+            <li class="facet"><label><input type="checkbox"> Item</label></li>
+          </ul>
+        </div>
+      </section>
+      <section id="main" class="cell span-3">
+        <header id="app-header" class="grid">
+          <h1 class="cell span-2">Cloud Servers</h1>
+          <div id="app-actions" class="cell span-2">
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle">Add Server</button>
+              <div class="dropdown-content">
+                <form class="popup form">
+                  <label>Test: <input type="text"></label>
+                  <button class="btn-primary btn">Add</button>
+                </form>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle"><i class="icon-cog"></i> Actions <span class="caret" /></button>
+              <div class="dropdown-content">
+                <ul class="menu">
+                  <li><a href="#">Tag</a></li>
+                  <li><a href="#">Delete</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div id="server-list">
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>IP Address</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>One</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Two</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Three</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Four</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Five</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Six</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Seven</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Eight</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Nine</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Ten</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Eleven</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Twelve</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Thirteen</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Fourteen</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Fifteen</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Sixteen</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Seventeen</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Eighteen</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Nineteen</td>
+                <td>1.1.1.1</td>
+              </tr>
+              <tr>
+                <td>Twenty</td>
+                <td>1.1.1.1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

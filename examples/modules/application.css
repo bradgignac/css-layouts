@@ -1,0 +1,159 @@
+body {
+  background-color: #eee;
+  margin-bottom: 40px;
+}
+
+form.form {
+  margin: 0;
+}
+
+.container {
+  width: 940px;
+}
+
+/* Main Page Layout */
+#main {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+#app-header {
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+  margin: 0 -20px 20px;
+  padding: 20px 0;
+}
+
+#app-actions {
+  margin-top: 4px;
+  text-align: right;
+}
+
+#app-actions > .dropdown {
+  text-align: left;
+}
+
+/* Grid */
+.grid {
+  display: block;
+  padding: 0;
+  margin: 0 -20px;
+  letter-spacing: -0.31em;
+  word-spacing: -0.43em;
+  text-rendering: optimizespeed;
+}
+
+.cell {
+  box-sizing: border-box;
+  display: inline-block;
+  float: none;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0 20px;
+  text-align: left;
+  text-rendering: auto;
+  vertical-align: top;
+  width: 100%;
+  word-spacing: normal;
+}
+
+.span-1 {
+  width: 25%;
+}
+
+.span-2 {
+  width: 50%;
+}
+
+.span-3 {
+  width: 75%;
+}
+
+.span-4 {
+  width: 100%;
+}
+
+/* Facets */
+.facets {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding: 10px 0 0;
+}
+
+.facet-header {
+  font-weight: bold;
+}
+
+.facet-group {
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+}
+
+.facet-header + .facet-group {
+  margin-top: 5px;
+}
+
+.facets input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Dropdowns */
+.dropdown {
+  display: inline-block;
+  margin-right: 10px;
+  padding-bottom: 3px;
+  position: relative;
+}
+
+.dropdown .dropdown-content {
+  display: none;
+  min-width: 120px;
+  position: absolute;
+  top: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu,
+.popup {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 10px;
+}
+
+.popup:before,
+.popup:after {
+  bottom: 100%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+
+.popup:before {
+  border-bottom-color: #ddd;
+  border-width: 11px;
+  left: 30px;
+  margin-left: -11px;
+}
+
+.popup:after {
+  border-bottom-color: #fff;
+  border-width: 10px;
+  left: 30px;
+  margin-left: -10px;
+}
