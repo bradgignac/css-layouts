@@ -1,0 +1,161 @@
+body {
+  background-color: #eee;
+  margin-bottom: 40px;
+}
+
+form.form {
+  margin: 0;
+}
+
+/* Main Page Layout */
+#main {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+#app-header {
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+  margin: 0 -20px 20px;
+  padding: 20px 0;
+}
+
+#app-actions {
+  margin-top: 4px;
+  text-align: right;
+}
+
+#app-actions > .dropdown {
+  text-align: left;
+}
+
+/* Grid */
+.grid {
+  display: block;
+  padding: 0;
+  margin: 0 -20px;
+  text-align: left;
+  letter-spacing: -0.31em;
+  word-spacing: -0.43em;
+  text-rendering: optimizespeed;
+}
+
+.cell {
+  width: 100%;
+  display: inline-block;
+  float: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 20px;
+  vertical-align: top;
+  text-align: left;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-rendering: auto;
+}
+
+.span-1 {
+  width: 25%;
+}
+
+.span-2 {
+  width: 50%;
+}
+
+.span-3 {
+  width: 75%;
+}
+
+.span-4 {
+  width: 100%;
+}
+
+.container {
+  width: 940px;
+}
+
+/* Facets */
+#facets {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding: 10px 0 0;
+}
+
+#facets div.group {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#facets ul {
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+}
+
+#facets input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Dropdowns */
+div.dropdown {
+  display: inline-block;
+  margin-right: 10px;
+  padding-bottom: 3px;
+  position: relative;
+}
+
+div.dropdown .menu {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: none;
+  list-style: none;
+  margin: 0;
+  min-width: 120px;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+}
+
+div.dropdown .popover {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: none;
+  min-width: 120px;
+  padding: 10px;
+  position: absolute;
+  top: 38px;
+}
+
+div.dropdown .popover:after,
+div.dropdown .popover:before {
+  bottom: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+div.dropdown .popover:after {
+  border-bottom-color: #fff;
+  border-width: 10px;
+  left: 30px;
+  margin-left: -10px;
+}
+
+div.dropdown .popover:before {
+  border-bottom-color: #ddd;
+  border-width: 11px;
+  left: 30px;
+  margin-left: -11px;
+}
+
+
+div.dropdown:hover .menu,
+div.dropdown:hover .popover {
+  display: block;
+}
