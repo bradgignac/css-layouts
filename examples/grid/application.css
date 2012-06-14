@@ -7,6 +7,10 @@ form.form {
   margin: 0;
 }
 
+.container {
+  width: 940px;
+}
+
 /* Main Page Layout */
 #main {
   background-color: #fff;
@@ -34,24 +38,23 @@ form.form {
   display: block;
   padding: 0;
   margin: 0 -20px;
-  text-align: left;
   letter-spacing: -0.31em;
   word-spacing: -0.43em;
   text-rendering: optimizespeed;
 }
 
 .cell {
-  width: 100%;
+  box-sizing: border-box;
   display: inline-block;
   float: none;
-  box-sizing: border-box;
+  letter-spacing: normal;
   margin: 0;
   padding: 0 20px;
-  vertical-align: top;
   text-align: left;
-  letter-spacing: normal;
-  word-spacing: normal;
   text-rendering: auto;
+  vertical-align: top;
+  width: 100%;
+  word-spacing: normal;
 }
 
 .span-1 {
@@ -68,10 +71,6 @@ form.form {
 
 .span-4 {
   width: 100%;
-}
-
-.container {
-  width: 940px;
 }
 
 /* Facets */
