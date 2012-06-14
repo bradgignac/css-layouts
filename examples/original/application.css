@@ -21,8 +21,9 @@ form.form {
 #main {
   background-color: #fff;
   border: 1px solid #ddd;
-  margin-left: 240px;
+  float: left;
   padding: 20px;
+  width: 658px;
 }
 
 #app-header {
