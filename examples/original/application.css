@@ -9,7 +9,7 @@ form.form {
 /* Main Page Layout */
 #content {
   margin: 0 auto 40px;
-  width: 940px;
+  width: 840px;
 }
 
 #sidebar {
@@ -23,7 +23,7 @@ form.form {
   border: 1px solid #ddd;
   float: left;
   padding: 20px;
-  width: 658px;
+  width: 558px;
 }
 
 #app-header {
@@ -36,11 +36,11 @@ form.form {
 
 #app-header h1 {
   float: left;
-  /*margin-right: 20px;
+  margin-right: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 472px;*/
+  width: 302px;
 }
 
 #app-actions {
@@ -132,4 +132,18 @@ div.dropdown .popover:before {
 div.dropdown:hover .menu,
 div.dropdown:hover .popover {
   display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: *1;
 }

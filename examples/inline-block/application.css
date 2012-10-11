@@ -2,7 +2,7 @@
 #wrapper {
   border: 1px dotted #08c;
 
-  /*letter-spacing: -4px;*/
+  letter-spacing: -4px;
 }
 
 #one,
@@ -22,6 +22,6 @@
   text-align: center;
   width: 211px;
 
-  /*letter-spacing: normal;*/
+  letter-spacing: normal;
   /*width: 214px;*/
 }
